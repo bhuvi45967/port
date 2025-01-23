@@ -1,19 +1,11 @@
-/* Prevent horizontal overflow globally */
-html,
-body {
-    width: 100%;
-    overflow-x: hidden;
+* {
     margin: 0;
     padding: 0;
-}
-
-/* Ensure box-sizing is applied to all elements */
-* {
     box-sizing: border-box;
     font-family: "Abyssinica SIL", serif;
 }
 
-/* home section */
+/* home srction */
 .home-section {
     width: 100%;
     height: 100vh;
@@ -31,11 +23,13 @@ body {
     font-weight: hold;
     color: #ff9900;
     letter-spacing: 2px;
+
 }
 
 .navbar-nav {
     margin-bottom: 50px;
     margin-top: 6px;
+
 }
 
 .nav.item.nav-link {
@@ -59,6 +53,7 @@ body {
     letter-spacing: 2px;
     border-radius: 5px;
     cursor: pointer;
+
 }
 
 @media screen and (max-width:991px) {
@@ -160,6 +155,8 @@ body {
     100% {
         content: "Developer";
     }
+
+
 }
 
 .home .content p {
@@ -215,6 +212,7 @@ body {
 @media screen and (max-width:360px) {
     .home-section {
         height: 300vh;
+
     }
 }
 
@@ -224,8 +222,11 @@ body {
     height: 200vh;
     background-color: black;
     display: flex;
+
     align-items: center;
 }
+
+
 
 #aboout .card img {
     width: 200px;
@@ -290,6 +291,11 @@ body {
         /* margin-left: -800px; */
         height: 100vh;
     }
+
+    /* 
+    #about p {
+        font-size: 17px;
+    } */
 }
 
 @media screen and (max-width:500px) {
@@ -297,6 +303,7 @@ body {
         height: 40vh;
     }
 }
+
 
 /* services */
 #services {
@@ -323,6 +330,7 @@ body {
 
 #services p {
     color: white;
+
 }
 
 #services .card i {
@@ -356,6 +364,7 @@ body {
     width: 100%;
     height: 120vh;
     background-color: black;
+    
 }
 
 #resume h5 {
@@ -400,6 +409,11 @@ body {
     }
 }
 
+
+/* resume */
+
+
+
 /* portfolio */
 #portfolio {
     width: 100%;
@@ -411,6 +425,7 @@ body {
     color: white;
     padding-top: 30px;
 }
+
 
 #portfolio h2 {
     color: white;
@@ -440,31 +455,37 @@ body {
     #portfolio {
         height: 270vh;
     }
+
 }
 
 @media screen and (max-width:380px) {
     #portfolio {
         height: 235vh;
     }
+
 }
 
 @media screen and (max-width:312px) {
     #portfolio {
         height: 200vh;
     }
+
 }
 
 @media screen and (max-width:300px) {
     #portfolio {
         height: 190vh;
     }
+
 }
 
 @media screen and (max-width:280px) {
     #portfolio h1 {
         padding-top: 100px;
     }
+
 }
+
 
 /* portfolio */
 
@@ -531,6 +552,7 @@ body {
 @media screen and(max-width:995px) {
     #contact input {
         width: 350px;
+
     }
 
     #contact textarea {
@@ -545,7 +567,9 @@ body {
 @media screen and(max-width:476px) {
     #contact input {
         width: 250px;
+
     }
+   
 
     #contact textarea {
         width: 250px;
@@ -559,6 +583,7 @@ body {
 @media screen and(max-width:320px) {
     #contact input {
         width: 100px;
+
     }
 
     #contact textarea {
@@ -576,11 +601,13 @@ body {
     }
 }
 
+
 /* footer */
 
 #footer {
     width: 100%;
     background-color: #ff9900;
+
 }
 
 #footer h1 {
